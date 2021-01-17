@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>
+</html>
+
+<script>
+    var count = 0;
+    var flg = true;
+    while (flg) {
+        if (++count > 3) {
+            alert("game over");
+            break;
+        }
+        if (flg = (prompt("東京ディズニーランドの最寄駅は？") !== "舞浜")) {
+            alert("不正解です！");
+            continue;
+        }
+        alert("正解です！");
+    }
+
+    console.log(result);
+</script>
